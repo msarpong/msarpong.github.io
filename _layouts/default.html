@@ -4,16 +4,33 @@
 <head>
     <title>{{ page.title }}</title>
     <meta charset="utf-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 </head>
 
 <body>
-
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 pt-5 side">
+                <div class="bio-content">
+                    <h1 class="h4">MSarpong</h1>
+                    <p class="big-text">
+                        Hi! <br>I’m Marcello Sarpong<br> a developer currently based in Italy.
+                    </p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="mailto:msarpong1991@gmail.com">mail</a></li>
+                        <li class="list-inline-item"><a href="github.com">github</a></li>
+             
+                    </ul>
+                </div>
+    
+            </div>
     {{ content }}
-
+ </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
