@@ -2,7 +2,7 @@
 body {
     font-family: 'Gothic A1', sans-serif;
     color: #919191;
-    background-color: rgb(26,26,26);
+    background-color: rgb(26, 26, 26);
     font-size: 14px;
 }
 
@@ -56,4 +56,18 @@ a, a:hover {
     hyphens: auto;
     white-space: initial;
     width: inherit;
+}
+
+.progress {
+   
+    background: #acacac;
+    border-radius: 25px;
+    height: 5px;
+}
+
+.progress-bar-custom {
+    background: rgb(0, 0, 0);}
+
+td {
+    color: #acacac;
 }
